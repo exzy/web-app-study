@@ -46,7 +46,8 @@ angular.module('app')
           description: 'Head sonar with low energy power. Good for newbi, bad for profi',
           power: 3,
           price: 20,
-          time: 20
+          time: 20,
+          attack: 20
         },
         {
           id: 2,
@@ -56,7 +57,8 @@ angular.module('app')
           description: 'THat is some better them light sonar',
           power: 5,
           price: 50,
-          time: 30
+          time: 30,
+          attack: 24
         },
         {
           id: 3,
@@ -66,7 +68,8 @@ angular.module('app')
           description: 'Light shield made from rope',
           power: 4,
           price: 40,
-          time: 20
+          time: 20,
+          armor: 14
         }
       ];
     }

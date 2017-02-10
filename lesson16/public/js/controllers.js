@@ -214,8 +214,12 @@ angular.module('app')
           id: item.id,
           image: item.image
         };
+       else ($scope.pocket[$scope.body[key].id].weared = true) {
+            $scope.attack = item.attack;
+        $scope.defence = item.armor;
         $scope.pocket[item.id].weared = true;
-        console.log($scope.pocket, $scope.body.gun, $scope.body.shield)
+        console.log($scope.pocket, $scope.body.gun, $scope.body.shield);
+       }
       }
     };
     
